@@ -52,7 +52,7 @@ def draw_line(Red, Green, Blue, i, type):
 
 
 if __name__ == '__main__':
-
+    # 主程式
     # 讓 xlwings 動態開啟excel檔案，並將該檔案存入 workbook 變數
     workbook = xw.Book(r'學員_列車運行圖_修改.xlsm')
     # 開啓 '運行圖' 試算表
